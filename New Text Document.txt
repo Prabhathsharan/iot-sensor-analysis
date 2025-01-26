@@ -89,3 +89,22 @@ Integration with cloud platforms for scalable data storage and processing.
 
 Applying deep learning techniques for enhanced forecasting accuracy.
 
+6. Deployment Readiness
+
+The solution is fully functional and Dockerized for easy deployment.
+
+A Dockerfile has been created to containerize the application, ensuring reproducibility across different environments.
+
+Steps for deployment:
+
+Install Docker and clone the repository.
+
+Build the Docker image using:
+
+docker build -t iot-sensor-analysis .
+
+Run the container with:
+
+docker run -d -p 5000:5000 iot-sensor-analysis
+
+The application is designed to be scalable and can be deployed on cloud services such as AWS, Azure, or GCP.
